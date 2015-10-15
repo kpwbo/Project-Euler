@@ -1,2 +1,4 @@
 require "prime"
-puts 600851475143.prime_division.last.first
+def problem_003
+  600851475143.prime_division.last.first
+end
