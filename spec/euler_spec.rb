@@ -1,9 +1,9 @@
 require "spec_helper"
 
-answers = [233168, 4613732, 6857, 906609, 232792560]
+answers = [233168, 4613732, 6857, 906609, 232792560, 25164150]
 
 describe Euler do
-  (1..5).each do |problem|
+  (1..6).each do |problem|
     time = Time.now
     answer = Euler.run(problem)
     time_taken = Time.now - time
